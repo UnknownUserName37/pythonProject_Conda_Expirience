@@ -1,0 +1,8 @@
+name : Skills-lvl_UP
+channels:
+  - conda-forge
+dependencies:
+  - python 3.9.5
+  - requests = 2.26.0
+  - selenium 4.5.0
+  - python-chromedriver-binary
