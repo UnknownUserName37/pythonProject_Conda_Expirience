@@ -1,3 +1,5 @@
+#Auto_Try #1
+
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options as ChromOptions
 import chromedriver_binary
@@ -10,6 +12,7 @@ def run_script():
     driver.quit()
 
 if __name__ == "__main__" :
+
 
     run_script()
 
