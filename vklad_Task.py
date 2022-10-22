@@ -6,12 +6,19 @@ och_tupo = 0
 
 while True:
 
-    sum_dep = float(input("Твой стартовый деп? -> "))
-    sum_profit = float(input("Скок хочешь? -> "))
+    sum_dep = int(input("Твой стартовый деп? -> "))
+    sum_profit = int(input("Скок хочешь? -> "))
+
     while True:
-        tupo += sum_dep * p
-        och_tupo += sum_dep * p
+        och_tupo = sum_dep * p #сколько от депозита в год
+        print(och_tupo, "новый деп рассчёта")
+        tupo += och_tupo #стакаем годовые проценты в каждой итерации
+
+        print(tupo, "я деп", round(sum_profit), "я профит")
+
         if (sum_profit // tupo) == 0:
-            years = sum_profit / tupo
-            print("потерпи стока лет -> ", years, "у тя будет стока бабла -> ", tupo)
+            print(tupo, "я новый деп")
+            years = ((sum_profit - (och_tupo*10)) / och_tupo) #рассчёт бабок без учёта начальной суммы депозита
+            print("потерпи стока лет -> ", float(years), "у тя будет стока бабла -> ", int(tupo))
             break
+
