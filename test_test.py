@@ -1,6 +1,6 @@
 #Remoute Auto_Test #2
 
-from selenium.webdriver import Remote
+from selenium.webdriver import Chrome, Remote
 
 class TestExample: #TestSuit
 
