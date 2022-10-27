@@ -1,0 +1,12 @@
+{
+	"chrome": {
+		"default": "latest",
+		"versions": {
+			"latest": {
+				"image": ["C:\\Program Files\\Google\\Chrome\\Application\\chromedriver"]
+
+			}
+
+		}
+	}
+}
