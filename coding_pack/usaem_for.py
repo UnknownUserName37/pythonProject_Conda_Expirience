@@ -42,3 +42,27 @@ for month in range(time):
     summ = money * time
     print("ПОздравляю, у тебя", summ, "бабок ♀ и ты потратил на это всего", month + 1, "месяца :-D")
 
+#Degree**2_Task
+
+degree = 2
+
+for decimal in range(10):
+    summa = (decimal+1) ** degree
+    if summa != 1:
+        print("Квадраты числе = ", summa)
+
+#ky_ky_Task_=)
+
+printit = "ку-ку"
+times_ky_ky = int(input("Сколько раз ку-ку? -> "))
+for numir in range(times_ky_ky):
+    print(printit)
+
+#janother_Task_na(on)_FOR_ degree from 0 to 20
+
+degree = 0
+new_mir = 2
+for initiger in range(20):
+    print(new_mir ** degree)
+    print(degree)
+    degree += 1
