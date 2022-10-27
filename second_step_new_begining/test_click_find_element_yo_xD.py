@@ -1,10 +1,11 @@
 from selenium.webdriver.common.by import By
+from selenium import webdriver
+class testim_free:
+    def find_object_for_test(self, Chrome):
+        driver = Chrome
+        driver.get("https://the-internet.herokuapp.com/login")
 
-class TestExample:
-    def find_object_for_test(self, test_test):
-        driver = test_test
-        driver.get("https://the-internet.herokuapp.com")
-        elem_name = driver
-        driver.find_element(By.CLASS_NAME, "fa fa-2x fa-sign-in")
+        elem_text = driver.find_element(By.ID, "username")
+
         pass
 
