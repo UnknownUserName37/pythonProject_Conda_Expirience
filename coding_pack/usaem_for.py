@@ -55,14 +55,37 @@ for decimal in range(10):
 
 printit = "ку-ку"
 times_ky_ky = int(input("Сколько раз ку-ку? -> "))
+
 for numir in range(times_ky_ky):
     print(printit)
 
 #janother_Task_na(on)_FOR_ degree from 0 to 20
 
-degree = 0
+degree = 1
 new_mir = 2
+
 for initiger in range(20):
-    print(new_mir ** degree)
-    print(degree)
+    print(new_mir ** degree, "два, в степене ниже")
+    print(degree, "текущая степень")
     degree += 1
+
+#One_more_FORE
+
+begining = int(input("Какое число введёшь для начала с циклом? - > ☺ -> "))
+
+for my_num in range (5, 10):
+    print("Число", begining, "в степени", my_num, "равно", begining**my_num)
+
+
+#range_fore_Task
+
+sum_calor = 0
+wake_up_time = int(input("Вставай, время твоё пришло, во скок встанешь? Но чур спать с 6 до  23! -> ☺ -> ♂ "))
+
+for int_chis in range(24):
+    calory = int(input("Сколько колорий уже в тебе? Не ли 2к000, чтоб спать? -> ?? ► "))
+    sum_calor += calory
+    if calory >= 2000 or int_chis <= 6 and int_chis >= 23:
+        print("Спим! ‼")
+        break
+    else: print("Бодримся, гега. ♂♀, пока", sum_calor)
