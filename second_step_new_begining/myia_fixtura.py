@@ -3,7 +3,6 @@
 from selenium.webdriver import Remote
 import pytest
 
-
 @pytest.fixture()
 def test_test():
     driver = Remote(desired_capabilities={
