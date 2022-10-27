@@ -10,7 +10,7 @@ class TestExample: #TestSuit
             "browserName": "chrome",
             "browserVersion": "latest"
         }, command_executor="http://127.0.0.1:4444/wd/hub")
-        driver.get("https://skillbox.ru")
+        driver.get("https://pythonist.ru/top-8-sajtov-s-besplatnymi-kursami-po-python-dlya-nachinayushhih/")
 
         driver.quit()
 
