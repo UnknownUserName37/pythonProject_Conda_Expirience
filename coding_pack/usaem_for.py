@@ -89,3 +89,15 @@ for int_chis in range(24):
         print("Спим! ‼")
         break
     else: print("Бодримся, гега. ♂♀, пока", sum_calor)
+
+#another_Task
+
+begining = int(input("Диапазон. Начало: - > "))
+ending = int(input("Диапазон. Конец: - > "))
+count_d = 0
+
+for eto_chiso in range(begining, ending):
+    #count_d += eto_chiso
+    print(eto_chiso, "я диапазон")
+    print("Сумма коридора чисел from", begining, "to", ending, "равен", eto_chiso)
+

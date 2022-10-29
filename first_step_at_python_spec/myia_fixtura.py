@@ -1,8 +1,8 @@
 #Remoute Auto_Test #2
 from selenium.webdriver import Chrome, Remote
 import pytest
-class TestExample: #TestSuit
-    def test_test(self): #TestCase
+class TestExaample: #TestSuit
+    def test_testo(self): #TestCase
         driver = Remote(desired_capabilities={
             "browserName": "chrome",
             "browserVersion": "latest"
