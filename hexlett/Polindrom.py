@@ -13,7 +13,6 @@ def reverse_string(text):
     return is_polindrome or is_text_null
 
 
-
 print('Здесь ->', reverse_string('motor'), '<- Это я, пустая строка, motor')  # => '!og'# => '!og'
 print('Здесь ->', reverse_string('ergerg'), '<- Это я, пустая строка, motor')  # => '!og'# => '!og'
 print('Здесь ->', reverse_string('erg'), '<- Это я, пустая строка, motor')  # => '!og'# => '!og'
