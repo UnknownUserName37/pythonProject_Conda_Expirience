@@ -26,4 +26,4 @@ def reverse_string(text, one_searching_symbol_from_text):
     return False
 
 
-print(f"{reverse_string('Game Of Thrones', 'B')} Who I'am?")  # 'senorhT fO emaG'
+print(f"{reverse_string('Game Of Thrones', 'S')} Who I'am?")  # 'senorhT fO emaG'
